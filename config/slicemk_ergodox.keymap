@@ -9,43 +9,43 @@
 
         layer_WORK {
             bindings = <
-                &kp ESCAPE     &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp NUMBER_4   &kp NUMBER_5   &kp LEFT_PARENTHESIS                                                                &kp RIGHT_PARENTHESIS &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0   &kp DELETE
-                &kp TAB        &kp Q          &kp W          &kp E          &kp R          &kp T          &kp LC(LA(DELETE))                                                                  &kp KP_MINUS          &kp Y          &kp U          &kp I          &kp O          &kp SEMICOLON  &kp BACKSLASH
-                &kp CAPSLOCK   &kp A          &kp S          &kp D          &kp F          &kp G                                                                                                                    &kp H          &kp J          &kp K          &kp L          &kp P          &kp RETURN
-                &kp LEFT_SHIFT &kp Z          &kp X          &kp C          &kp V          &kp B          &kp RETURN                                                                          &kp KP_PLUS           &kp N          &kp M          &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp QUESTION &kp RIGHT_SHIFT
-                &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI   &kp LS(LG(S))  &lt 1 DELETE                                                                                                                                           &kp COMMA      &kp PERIOD     &kp RIGHT_ALT  &to 0          &to 1
-                                                                                           &kp LC(C)      &kp LC(V)                                                                           &kp LEFT_ARROW        &kp RIGHT_ARROW
-                                                                                                          &kp BACKSPACE                                                                       &kp PAGE_UP
-                                                                            &kp LEFT_SHIFT &kp PAGE_UP    &kp UP_ARROW                                                                        &kp RETURN            &kp SPACE      &kp PAGE_DOWN
-                                                                                                          &kp DOWN_ARROW                                                                      &kp DOWN_ARROW
+                &kp ESCAPE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp DELETE
+                &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp LC(LA(DELETE)) &kp KP_MINUS &kp Y &kp U &kp I &kp O &kp SEMICOLON &kp BACKSLASH
+                &kp CAPSLOCK &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp P &kp RETURN
+                &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp RETURN &kp KP_PLUS &kp N &kp M &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp QUESTION &kp RIGHT_SHIFT
+                &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_GUI &kp LS(LG(S)) &lt 1 DELETE &kp COMMA &kp PERIOD &kp RIGHT_ALT &to 0 &to 1
+                &kp LC(C) &kp LC(V) &kp LEFT_ARROW &kp RIGHT_ARROW
+                &kp BACKSPACE &kp PAGE_UP
+                &kp LEFT_SHIFT &kp PAGE_UP &kp UP_ARROW &kp RETURN &kp SPACE &kp PAGE_DOWN
+                &kp DOWN_ARROW &kp DOWN_ARROW
             >;
         };
 
         layer_3 {
             bindings = <
-                &to 2          &kp F1         &kp F2         &kp F3         &kp F4         &kp F5         &kp F6                                                                              &kp F7                &kp F8         &kp F9         &kp F10        &kp F11        &kp F12        &kp BACKSPACE
-                &kp TAB        &msc SCRL_UP   &mmv MOVE_UP   &none          &msc SCRL_RIGHT &msc SCRL_LEFT &none                                                                               &none                 &none          &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &none          &none
-                &rgb_ug RGB_BRI &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &mkp LCLK     &none                                                                                                                    &none          &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6   &kp NUMBER_0   &kp BACKSPACE
-                &rgb_ug RGB_BRD &msc SCRL_DOWN &none          &none          &kp PERIOD     &none          &kp C_BRIGHTNESS_DEC                                                                &kp C_BRIGHTNESS_INC  &none          &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &none          &none
-                &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_TOG &kp LEFT_ARROW &kp UP_ARROW                                                                                                                                           &kp DOWN_ARROW &kp NUMBER_0   &kp PERIOD     &to 0          &to 1
-                                                                                           &none          &none                                                                               &kp LEFT_ARROW        &kp RIGHT_ARROW
-                                                                                                          &none                                                                               &none
-                                                                            &kp PAGE_UP    &kp UP_ARROW   &mkp LCLK                                                                           &none                 &kp PAGE_DOWN  &kp DOWN_ARROW
-                                                                                                          &none                                                                               &none
+                &to 2 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12 &kp BACKSPACE
+                &kp TAB &msc SCRL_UP &mmv MOVE_UP &none &msc SCRL_RIGHT &msc SCRL_LEFT &none &none &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &none &none
+                &rgb_ug RGB_BRI &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &mkp LCLK &none &none &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_0 &kp BACKSPACE
+                &rgb_ug RGB_BRD &msc SCRL_DOWN &none &none &kp PERIOD &none &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &none &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &none &none
+                &rgb_ug RGB_HUD &rgb_ug RGB_HUI &rgb_ug RGB_TOG &kp LEFT_ARROW &kp UP_ARROW &kp DOWN_ARROW &kp NUMBER_0 &kp PERIOD &to 0 &to 1
+                &none &none &kp LEFT_ARROW &kp RIGHT_ARROW
+                &none &none
+                &kp PAGE_UP &kp UP_ARROW &mkp LCLK &none &kp PAGE_DOWN &kp DOWN_ARROW
+                &none &none
             >;
         };
 
         layer_MAC {
             bindings = <
-                &kp ESCAPE     &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3   &kp NUMBER_4   &kp NUMBER_5   &kp LEFT_PARENTHESIS                                                                &kp RIGHT_PARENTHESIS &kp NUMBER_6   &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9   &kp NUMBER_0   &kp DELETE
-                &kp TAB        &kp Q          &kp W          &kp E          &kp R          &kp T          &kp LC(LA(DELETE))                                                                  &kp KP_MINUS          &kp Y          &kp U          &kp I          &kp O          &kp SEMICOLON  &kp BACKSLASH
-                &kp CAPSLOCK   &kp A          &kp S          &kp D          &kp F          &kp G                                                                                                                    &kp H          &kp J          &kp K          &kp L          &kp P          &kp RETURN
-                &kp LEFT_SHIFT &kp Z          &kp X          &kp C          &kp V          &kp B          &kp RETURN                                                                          &kp KP_PLUS           &kp N          &kp M          &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp QUESTION &kp RIGHT_SHIFT
-                &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_ALT   &kp LS(LG(NUMBER_4)) &lt 1 DELETE                                                                                                                                      &kp COMMA      &kp PERIOD     &kp RIGHT_ALT  &to 0          &to 1
-                                                                                           &kp LG(C)      &kp LG(V)                                                                           &kp LEFT_ARROW        &kp RIGHT_ARROW
-                                                                                                          &kp BACKSPACE                                                                       &kp PAGE_UP
-                                                                            &kp LEFT_SHIFT &kp PAGE_UP    &kp UP_ARROW                                                                        &kp RETURN            &kp SPACE      &kp PAGE_DOWN
-                                                                                                          &kp DOWN_ARROW                                                                      &kp DOWN_ARROW
+                &kp ESCAPE &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp DELETE
+                &kp TAB &kp Q &kp W &kp E &kp R &kp T &kp LC(LA(DELETE)) &kp KP_MINUS &kp Y &kp U &kp I &kp O &kp SEMICOLON &kp BACKSLASH
+                &kp CAPSLOCK &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp P &kp RETURN
+                &kp LEFT_SHIFT &kp Z &kp X &kp C &kp V &kp B &kp RETURN &kp KP_PLUS &kp N &kp M &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp QUESTION &kp RIGHT_SHIFT
+                &kp LEFT_CONTROL &kp LEFT_ALT &kp LEFT_ALT &kp LS(LG(NUMBER_4)) &lt 1 DELETE &kp COMMA &kp PERIOD &kp RIGHT_ALT &to 0 &to 1
+                &kp LG(C) &kp LG(V) &kp LEFT_ARROW &kp RIGHT_ARROW
+                &kp BACKSPACE &kp PAGE_UP
+                &kp LEFT_SHIFT &kp PAGE_UP &kp UP_ARROW &kp RETURN &kp SPACE &kp PAGE_DOWN
+                &kp DOWN_ARROW &kp DOWN_ARROW
             >;
         };
     };
